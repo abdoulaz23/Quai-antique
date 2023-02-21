@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+}
+
+#inscription{
+    margin-top :150px;
+    margin-right: 10px;
+    height: 50px;
+    background-color: darkseagreen;
+    flex-direction: row;
+    position: relative;
+    display: inline-block;
+    float: right;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+}
+#connexion{
+    margin-top :150px;
+    margin-right: 100px;
+    height: 50px;
+    background-color: lightblue;
+    flex-direction: row;
+    position: relative;
+    display: inline-block;
+    float: right;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+}
+#btn_reser{
+    margin-left:700px;
+    height: 100px;
+    width: 200px;
+    background-color: lightblue;
+    flex-direction: row;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+}

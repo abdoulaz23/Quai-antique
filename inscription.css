@@ -1,0 +1,25 @@
+.sign-up{
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ece1be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: medium;
+    flex-direction: column;
+    width:800px;
+    height:800px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1a1d20;
+}
+.login{
+    width: 400px;
+    height:300px;
+}

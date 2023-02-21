@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+<div class="sign-up">
+  <div class="image">
+    <img src="Quai%20Antique.png" width="400" height="300">
+  </div>
+  <form class="login" >
+    <fieldset>
+      <legend>Formulaire d'inscription</legend>
+      <label for ="name">Nom<em>*</em></label>
+      <input id="name" type="text"placeholder="nom" required=""><br>
+      <label for ="lastname">Prénom<em>*</em></label>
+      <input id="lastname" type="text"placeholder="prénom" required=""><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="prenom.nom@example.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@example.com"><br>
+      <label for="password"> Mot de passe <em>*</em></label>
+      <input id="password" type="password" placeholder="******" required="" pattern="[a-zA-Z]*.[a-zA-Z]"><br>
+      <label for="allergie" class="form-label">Allergie</label>
+      <select class="form-select" id="allergie" required>
+        <option value="">Choisir</option>
+        <option>Arachide</option>
+        <option>Fruit de mer</option>
+        <option>Noix</option>
+        <option>Oeuf</option>
+      </select>
+
+    </fieldset>
+
+    <button id="btn-valid">S'inscrire'</button>
+  </form>
+</div>
+</body>
+</html>
